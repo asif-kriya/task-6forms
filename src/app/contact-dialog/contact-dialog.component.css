@@ -1,0 +1,61 @@
+/* contact-us.component.css */
+
+/* Style the form container */
+
+mat-dialog-content {
+    padding: 20px;
+    background: url('https://t4.ftcdn.net/jpg/01/19/11/55/360_F_119115529_mEnw3lGpLdlDkfLgRcVSbFRuVl6sMDty.jpg') no-repeat center center;
+    background-size: cover;
+    border-radius: 8px;
+  }
+  
+  /* Style the form fields */
+  mat-form-field {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  mat-form-field input,
+  mat-form-field textarea {
+    font-size: 16px;
+  }
+  
+  mat-form-field.mat-form-field-appearance-fill .mat-form-field-flex {
+    background-color: white;
+  }
+  
+  mat-form-field.mat-focused .mat-form-field-label {
+    color: #3f51b5; /* Primary color */
+  }
+  
+  /* Style the submit button */
+  button.mat-button {
+    background-color: #3f51b5; /* Primary color */
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button.mat-button:hover {
+    background-color: #303f9f; /* Darker shade of primary color */
+  }
+  
+  button.mat-button:focus {
+    outline: none;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 600px) {
+    mat-dialog-content {
+      padding: 10px;
+    }
+  
+    button.mat-button {
+      width: 100%;
+
+    }
+  }
+  
